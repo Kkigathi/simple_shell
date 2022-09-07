@@ -13,7 +13,7 @@ int check_args(char **args);
 char *get_args(char *line, int *exe_ret)
 {
 	size_t n = 0;
-	ssize_t read;
+	size_t read;
 	char *prompt = "$ ";
 	if (line)
 		free(line);
