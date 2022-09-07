@@ -1,3 +1,4 @@
+#include <stddef.h>
 int run_args(char **args, char **front, int *exe_ret);
 int handle_args(int *exe_ret);
 int check_args(char **args);
